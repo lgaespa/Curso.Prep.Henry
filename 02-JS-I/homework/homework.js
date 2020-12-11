@@ -106,22 +106,16 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%2 == 0){
-    return true;
-  }
-return false;
+return (num % 2 === 0);
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%2 == 0){
-    return false;
-  }
-return true;
-}
+return !(num % 2 === 0);
 
+}
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
